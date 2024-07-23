@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg, rgba(77,57,200,1) 0%, rgba(184,113,254,1) 90%);
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn{
+  background: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover{
+  background-color: #f1f1f1; /* Light grey background on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+  transform: scale(1.05); /* Slightly scales up the button on hover */
+}

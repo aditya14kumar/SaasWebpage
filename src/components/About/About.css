@@ -1,0 +1,48 @@
+.about {
+  width: 100%;
+  padding: 9% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12%;
+}
+
+.about-right {
+  flex-basis: 30%;
+}
+
+.about-right img {
+  width: 500px;
+}
+
+.about-left {
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.about-left h2 {
+  font-size: 40px;
+}
+
+.about-left p{
+    font-size: 20px;
+}
+
+.cost-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cost-container img{
+    width: 70px;
+}
+
+.cost-container h4{
+    font-size: 24px;
+}
